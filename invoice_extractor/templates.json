@@ -1,0 +1,11 @@
+{
+    "default": {
+        "invoice_number": "Invoice\\s*#?:?\\s*(\\w+)",
+        "invoice_amount": "Total\\s*[:\\$]?\\s*(\\d+\\.\\d{2})",
+        "invoice_date": "Date\\s*:?\\s*(\\d{2}/\\d{2}/\\d{4})",
+        "seller_name": "Seller\\s*:?\\s*(.+)",
+        "po_number": "PO\\s*#:?\\s*(\\w+)",
+        "currency": "Currency\\s*:?\\s*(\\w+)",
+        "total_tax": "Tax\\s*:?\\s*(\\d+\\.\\d{2})"
+    }
+}
